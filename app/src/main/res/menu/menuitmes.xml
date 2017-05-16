@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/getAllRecords"
+        android:title="ALL DATA"
+        ></item>
+    <item
+        android:id="@+id/nameWiseRecords"
+        android:title="Name Search"></item>
+
+    <item
+        android:id="@+id/dateWiseRecords"
+        android:title="Date Search"></item>
+
+    <item
+        android:id="@+id/file3"
+        android:title="option3"></item>
+
+    <item
+        android:id="@+id/file4"
+        android:title="option4"></item>
+
+
+</menu>

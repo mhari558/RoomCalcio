@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_first_fragment"
+                android:icon="@drawable/drawer"
+                android:checked="true"
+                android:checkableBehavior="single"
+                android:title="Add Share Money"
+                >
+
+                </item>
+            <item
+                android:id="@+id/nav_second_fragment"
+                android:icon="@drawable/drawer"
+                android:title="Show All Data" />
+            <item
+                android:id="@+id/nav_third_fragment"
+                android:icon="@drawable/drawer"
+                android:title="Search" />
+           <!-- <item
+                android:id="@+id/member_fragment"
+                android:icon="@drawable/drawer"
+
+                android:title="Add Remove Members" >
+
+
+                <menu>
+
+                        <item android:id="@+id/form1"
+                            android:icon="@drawable/drawer"
+                            android:title="Form 1"
+                            android:onClick="onSort" />
+                        <item android:id="@+id/form2"
+                            android:icon="@drawable/drawer"
+                            android:title="Form 2"
+                            android:onClick="onSort" />
+                </menu>
+                </item>-->
+        </group>
+
+</menu>
